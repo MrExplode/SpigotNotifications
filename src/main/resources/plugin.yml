@@ -1,0 +1,7 @@
+name: ${project.name}
+version: ${project.version}
+author: MrExplode
+description: ${project.description}
+website: ${project.url}
+main: ${mainClass}
+api-version: 1.13
