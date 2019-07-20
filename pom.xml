@@ -7,7 +7,7 @@
   <url>https://mrexplode.github.io/</url>
   <description>Notify the user from server events</description>
   <properties>
-  	<mainClass>me.mrexplode.spigotNotifications.Main</mainClass>
+  	<mainClass>me.mrexplode.notifications.Main</mainClass>
   	<maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
