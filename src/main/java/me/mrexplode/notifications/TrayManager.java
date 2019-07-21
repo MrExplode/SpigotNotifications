@@ -21,6 +21,7 @@ public class TrayManager {
     private Plugin plugin;
     
     public TrayManager(Plugin plugin) {
+        this.plugin = plugin;
         tray = SystemTray.getSystemTray();
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Image img = toolkit.getImage(getClass().getResource("/trayicon.png"));
